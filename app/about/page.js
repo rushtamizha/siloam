@@ -15,7 +15,7 @@ import {
 import Link from "next/link";
 
 const stats = [
-  { value: "50,000+", label: "Samples Collected", desc: "Across major sectors in Bengaluru" },
+  { value: "50,000+", label: "Samples Collected", desc: "Across major sectors in Chennai" },
   { value: "100%", label: "NABL Accredited", desc: "Processed via gold-standard labs" },
   { value: "4.9 / 5", label: "Google Rating", desc: "Trusted by families and senior citizens" },
   { value: "15 Mins", label: "Average Setup Time", desc: "Quick, painless doorstep procedures" },
@@ -71,7 +71,7 @@ export default function AboutPage() {
             </h1>
             
             <p className="text-base sm:text-lg font-semibold leading-relaxed text-slate-500 max-w-2xl">
-              At siloam Diagnostics (Siloam), we believe that accessing reliable clinical insight shouldn't require long waiting rooms, traffic stress, or crowded hospital queues. We bring premium medical diagnostics straight to your doorstep across Bengaluru.
+              At siloam Diagnostics (Siloam), we believe that accessing reliable clinical insight shouldn't require long waiting rooms, traffic stress, or crowded hospital queues. We bring premium medical diagnostics straight to your doorstep across Chennai.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
 
             <div className="lg:col-span-7 text-sm font-semibold text-slate-500 space-y-6 leading-relaxed">
               <p>
-                Siloam was founded in Bengaluru with a clear purpose: to bridge the gap between world-class laboratory diagnostic validation and extreme physical accessibility. We witnessed senior citizens dealing with stressful early-morning traffic just for routine fasting blood draws, and families waiting endlessly in sterile clinical waiting areas for basic bedside updates.
+                Siloam was founded in Chennai with a clear purpose: to bridge the gap between world-class laboratory diagnostic validation and extreme physical accessibility. We witnessed senior citizens dealing with stressful early-morning traffic just for routine fasting blood draws, and families waiting endlessly in sterile clinical waiting areas for basic bedside updates.
               </p>
               <p className="border-l-4 border-emerald-800 pl-4 py-1 text-slate-800 font-bold italic bg-emerald-50/40 rounded-r-2xl">
                 "Our core thesis is uncompromised healthcare symmetry. A patient at home deserves the exact same precision index as a patient walking into a premier diagnostic facility center."

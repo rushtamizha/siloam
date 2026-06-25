@@ -24,10 +24,10 @@ export default function ContactPage() {
 
   const handleEnquirySubmit = (e) => {
     e.preventDefault();
-    const SiloamSupportLine = "919999999999"; // Your central operations support line
+    const SiloamSupportLine = "919629007513"; // Your central operations support line
     
     const structuredMessage = 
-      `*Siloam BENGALURU - GENERAL ENQUIRY DISPATCH*\n` +
+      `*Siloam Chennai - GENERAL ENQUIRY DISPATCH*\n` +
       `----------------------------------------\n` +
       `• *Patient/Enquirer Name:* ${formData.name}\n` +
       `• *Contact No:* ${formData.phone}\n` +
@@ -51,7 +51,7 @@ export default function ContactPage() {
             Direct Support Hub
           </div>
           <h1 className="text-4xl font-black tracking-tight text-slate-900 sm:text-5xl lg:text-6xl leading-[1.1]">
-            Contact Our <span className="text-emerald-900">Bengaluru Desk</span>
+            Contact Our <span className="text-emerald-900">Chennai Desk</span>
           </h1>
           <p className="text-base font-semibold leading-relaxed text-slate-500 max-w-2xl">
             Have a question about a prescription or coverage areas? Submit your medical enquiry below, and our central coordination desk will assist you instantly.
@@ -73,21 +73,21 @@ export default function ContactPage() {
                   <MapPin className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-black text-slate-900">Coverage Location</p>
-                    <p className="text-xs text-slate-500 mt-0.5">Serving all major sectors across Bengaluru, KA, India</p>
+                    <p className="text-xs text-slate-500 mt-0.5">Serving all major sectors across Chennai, KA, India</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-black text-slate-900">Central Helpline</p>
-                    <a href="tel:+919999999999" className="text-xs text-slate-500 mt-0.5 block hover:text-emerald-600 transition-colors">+91 99999 99999</a>
+                    <a href="tel:+919629007513" className="text-xs text-slate-500 mt-0.5 block hover:text-emerald-600 transition-colors">+91 9629007513</a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-black text-slate-900">Email Correspondence</p>
-                    <a href="mailto:support@Siloam.in" className="text-xs text-slate-500 mt-0.5 block hover:text-emerald-600 transition-colors">support@Siloam.in</a>
+                    <a href="mailto:siloamdiagnostic0@gmail.com" className="text-xs text-slate-500 mt-0.5 block hover:text-emerald-600 transition-colors">siloamdiagnostic0@gmail.com</a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -166,10 +166,10 @@ export default function ContactPage() {
 
                 {/* Email Address */}
                 <div>
-                  <label className="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address (Optional)</label>
+                  <label className="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address </label>
                   <input
                     type="email"
-                    placeholder="name@example.com"
+                    placeholder="siloamdiagnostic0@gmail.com"
                     value={formData.email}
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
                     className="w-full rounded-xl border border-slate-200 bg-slate-50/50 py-3 px-4 text-sm font-semibold text-slate-800 placeholder-slate-400 focus:border-emerald-800 focus:bg-white focus:outline-none transition-all"
@@ -178,17 +178,29 @@ export default function ContactPage() {
 
                 {/* Modality Core Selection */}
                 <div>
-                  <label className="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Subject Modality</label>
+                  <label className="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Subject Services</label>
                   <select
                     value={formData.modality}
                     onChange={(e) => setFormData({...formData, modality: e.target.value})}
                     className="w-full appearance-none rounded-xl border border-slate-200 bg-slate-50/50 py-3 px-4 text-sm font-semibold text-slate-800 focus:border-emerald-800 focus:bg-white focus:outline-none transition-all"
                   >
-                    <option>Blood Test Profile Query</option>
-                    <option>Bedside ECG System Setup</option>
-                    <option>Portable Digital X-Ray Processing</option>
-                    <option>Corporate Health Tie-ups</option>
-                    <option>Other Operational Support</option>
+                    <option>Home Blood Sample Collection</option>
+<option>Executive Full Body Checkup</option>
+<option>ECG Test at Home</option>
+<option>Portable Digital X-Ray at Home</option>
+<option>Advanced Diabetes & Lipid Profile</option>
+<option>Complete Cardiac Health Screening</option>
+<option>Senior Citizen Health Checkup</option>
+<option>Preventive Health Package</option>
+<option>Horse Digital X-Ray Service</option>
+<option>Veterinary X-Ray for Dogs</option>
+<option>Veterinary X-Ray for Cats</option>
+<option>Veterinary X-Ray for Birds</option>
+<option>Veterinary X-Ray for Rabbits</option>
+<option>Veterinary X-Ray for Livestock</option>
+<option>Portable Veterinary Imaging</option>
+<option>Emergency Diagnostic Services</option>
+<option>Other Diagnostic Service</option>
                   </select>
                 </div>
 

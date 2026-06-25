@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="space-y-5 lg:col-span-4">
             <Link href="/" className="flex items-center gap-2.5 cursor-pointer group">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 text-emerald-800 border border-emerald-100 shadow-sm">
-                <Activity className="h-5 w-5" />
+                <img src="/logo.jpg" className="w-full h-full object-cover rounded-full" alt="logo" />
               </div>
               <div className="flex flex-col justify-center leading-tight">
                 <p className="text-base font-black tracking-tight text-slate-900">
@@ -68,21 +68,33 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs font-semibold text-slate-500">
               <li>
-                <Link href="/services/blood-test" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
+                <Link href="/#services" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
                   <ArrowRight className="h-3 w-3 opacity-0 -ml-4 transition-all group-hover:opacity-100 group-hover:ml-0 text-emerald-600" />
                   Blood Test Services
                 </Link>
               </li>
               <li>
-                <Link href="/services/home-ecg" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
+                <Link href="/#services" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
                   <ArrowRight className="h-3 w-3 opacity-0 -ml-4 transition-all group-hover:opacity-100 group-hover:ml-0 text-emerald-600" />
                   Bedside ECG Service
                 </Link>
               </li>
               <li>
-                <Link href="/services/xray-at-home" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
+                <Link href="/#services" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
                   <ArrowRight className="h-3 w-3 opacity-0 -ml-4 transition-all group-hover:opacity-100 group-hover:ml-0 text-emerald-600" />
                   Digital X-Ray Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/#services" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
+                  <ArrowRight className="h-3 w-3 opacity-0 -ml-4 transition-all group-hover:opacity-100 group-hover:ml-0 text-emerald-600" />
+                  Portable X-Ray For Horses
+                </Link>
+              </li>
+              <li>
+                <Link href="/#services" className="transition-colors hover:text-emerald-600 flex items-center gap-1 group">
+                  <ArrowRight className="h-3 w-3 opacity-0 -ml-4 transition-all group-hover:opacity-100 group-hover:ml-0 text-emerald-600" />
+                  Portable X-Ray For Veterinary
                 </Link>
               </li>
             </ul>
@@ -96,15 +108,15 @@ export default function Footer() {
             <ul className="space-y-3 text-xs font-semibold text-slate-500">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
-                <span>Serving all major sectors across Bengaluru, Karnataka, India</span>
+                <span>No.62/4, Panchayat commercial complex,<br/> Thiruvalam, Thiruvallam, <br/>Tamil Nadu 632515</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-emerald-600 shrink-0" />
-                <a href="tel:+919999999999" className="transition-colors hover:text-emerald-600">+91 99999 99999</a>
+                <a href="tel:+919629007513" className="transition-colors hover:text-emerald-600">+91 9629007513</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-emerald-600 shrink-0" />
-                <a href="mailto:support@Siloam.in" className="transition-colors hover:text-emerald-600">support@Siloam.in</a>
+                <a href="mailto:siloamdiagnostic0@gmail.com" className="transition-colors hover:text-emerald-600">siloamdiagnostic0@gmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="h-4 w-4 text-emerald-600 shrink-0" />
@@ -143,7 +155,7 @@ export default function Footer() {
           <div className="flex items-center gap-1 shrink-0 text-slate-400/90 font-bold uppercase tracking-wider text-[10px]">
             <span>Crafted with</span>
             <Heart className="h-3 w-3 text-red-500 fill-red-500 animate-pulse" />
-            <span>in Bengaluru</span>
+            <span>in Chennai</span>
           </div>
         </div>
 

@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 const testimonials = [
   {
     name: "Ramesh Kirshnamurthy",
-    location: "Jayanagar, Bengaluru",
+    location: "Jayanagar, Chennai",
     role: "Senior Citizen Patient",
     rating: 5,
     date: "2 days ago",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     name: "Priya Sharma",
-    location: "Whitefield, Bengaluru",
+    location: "Whitefield, Chennai",
     role: "IT Professional",
     rating: 5,
     date: "1 week ago",
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     name: "Anand Verma",
-    location: "Indiranagar, Bengaluru",
+    location: "Indiranagar, Chennai",
     role: "Verified Patient",
     rating: 5,
     date: "3 weeks ago",
@@ -93,7 +93,7 @@ export default function Testimonials() {
           >
             {testimonials.map((review, index) => (
               <SwiperSlide key={index} className="h-full">
-                <div className="group relative flex h-full flex-col justify-between rounded-[2rem] border border-slate-200/70 bg-white p-6 shadow-[0_10px_30px_rgba(0,0,0,0.015)] transition-all duration-300 hover:border-emerald-800/30 hover:shadow-[0_20px_50px_rgba(0,96,57,0.04)]">
+                <div className="group relative flex h-full flex-col justify-between rounded-[2rem] border border-slate-200/70 bg-white p-6 shadow-xs transition-all duration-300 hover:border-emerald-800/30 hover:shadow-sm">
                   
                   {/* Decorative Upper Elements */}
                   <div>

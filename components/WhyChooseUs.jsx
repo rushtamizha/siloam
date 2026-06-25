@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
   };
 
   return (
-    <section id="why-choose-us" className="relative w-full bg-white py-0 ">
+    <section id="why-choose-us" className="relative w-full bg-white pb-5 ">
       
       {/* Subtle Medical Graphic Grid Accents */}
       <div className="absolute top-40 left-0 -z-10 h-72 w-72 rounded-full bg-emerald-50/60 blur-3xl" />
@@ -66,7 +66,7 @@ export default function WhyChooseUs() {
             Safety First. Accuracy Always.
           </div>
           <h2 className="text-2xl font-black tracking-tight text-slate-900  ">
-            Why Bengaluru Trusts <span className="text-emerald-900">Siloam</span>
+            Why Chennai Trusts <span className="text-emerald-900">Siloam</span>
           </h2>
           <p className="text-base font-medium text-slate-500 max-w-2xl mx-auto leading-relaxed">
             We are committed to redefining home diagnostics through professional integrity, rigorous clinical safety, and unmatched customer convenience.
@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
               key={index}
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}
-              className="group relative flex flex-col justify-between rounded-[2rem] border border-slate-200/60 bg-slate-50/30 p-6 transition-all duration-300 hover:border-emerald-800/30 hover:bg-white hover:shadow-[0_20px_50px_rgba(0,96,57,0.04)]"
+              className="group relative flex flex-col justify-between rounded-[2rem] border border-slate-200/60 bg-slate-50/30 p-6 transition-all duration-300 hover:border-gray-800/10 hover:bg-white hover:shadow-xs m-1"
             >
               <div>
                 {/* Icon Shell */}
@@ -99,7 +99,7 @@ export default function WhyChooseUs() {
                   <span className="text-[10px] font-black tracking-widest text-emerald-600 uppercase block">
                     {pillar.badge}
                   </span>
-                  <h3 className="text-lg font-black tracking-tight text-slate-900 group-hover:text-emerald-900 transition-colors">
+                  <h3 className="text-sm font-black tracking-tight text-slate-900 group-hover:text-emerald-900 transition-colors">
                     {pillar.title}
                   </h3>
                   <p className="text-xs font-semibold leading-relaxed text-slate-500">

@@ -180,7 +180,7 @@ export default function Navbar() {
         {/* PREMIUM ACTION CTA */}
         <div className="hidden items-center lg:flex px-2">
           <button
-            onClick={() => router.push("/booking")}
+            onClick={() => router.push("/contact")}
             className="rounded-full bg-emerald-900 px-6 py-2.5 text-[13px]   font-semibold  text-white  shadow-md shadow-emerald-900/10 hover:bg-emerald-800 hover:shadow-lg transition-all active:scale-95"
           >
             Book Appointment
@@ -271,7 +271,7 @@ export default function Navbar() {
               <div className="pt-4">
                 <button
                   onClick={() => {
-                    router.push("/booking");
+                    router.push("/contact");
                     setIsMobileOpen(false);
                   }}
                   className="flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-900  font-semibold py-4 text-sm    text-white shadow-lg shadow-emerald-900/20 hover:bg-emerald-800"

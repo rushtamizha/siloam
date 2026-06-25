@@ -3,29 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, HelpCircle, CheckCircle2 } from "lucide-react";
-
-const faqData = [
-  {
-    question: "How do I book a doorstep blood test, X-ray, or ECG with Siloam?",
-    answer: "Booking is simple and effortless. You can fill out our Quick Booking form on the website, which instantly routes your request directly to our WhatsApp Desk. Alternatively, you can message or call our support lines directly to confirm your preferred time slot."
-  },
-  {
-    question: "Are your lab testing facilities NABL-accredited?",
-    answer: "Yes, absolutely. To guarantee the highest standards of medical accuracy and reliable diagnostics, all samples collected by Siloam Diagnostics are processed exclusively through our network of fully certified NABL partner laboratories."
-  },
-  {
-    question: "How long does it take to get my diagnostic test reports?",
-    answer: "Most routine blood test panels and automated ECG reports are processed rapidly and delivered straight to your verified WhatsApp number and email within hours. Specific specialized radiology or pathology scans may take up to 24 hours."
-  },
-  {
-    question: "How should I prepare for a home sample collection?",
-    answer: "Preparation depends on the prescribed test. For full-body health checks or lipid panels, a standard 8 to 12-hour overnight fast is usually required. For ECG and portable digital X-ray services, ensure the patient is wearing loose, comfortable clothing."
-  },
-  {
-    question: "Is there an additional premium charge for home collection services in Bengaluru?",
-    answer: "At Siloam, we believe in transparent pricing with zero hidden charges. Our core mission is to make healthcare accessible and affordable, so our home care phlebotomy and diagnostic visits are kept highly competitive alongside partner lab rates."
-  }
-];
+import { faqData } from "@/data";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -79,7 +57,7 @@ export default function FAQ() {
                 >
                   <div className="flex items-start gap-3">
                     <HelpCircle className={`h-5 w-5 mt-0.5 shrink-0 transition-colors ${isOpen ? "text-emerald-900" : "text-slate-400"}`} />
-                    <span className={`text-sm sm:text-base font-black tracking-tight transition-colors ${isOpen ? "text-emerald-900" : "text-slate-800"}`}>
+                    <span className={`text-sm  font-semibold tracking-tight transition-colors ${isOpen ? "text-emerald-900" : "text-slate-800"}`}>
                       {item.question}
                     </span>
                   </div>
